@@ -76,8 +76,8 @@ public class Swerve extends SubsystemBase  implements WiredSubsystem {
             e.printStackTrace();
         }
 
-        swerveDrive.stateStdDevs = Constants.LimelightConstants.driveMeasurementStdDevs;
-        swerveDrive.visionMeasurementStdDevs = Constants.LimelightConstants.visionMeasurementStdDevs;
+        //swerveDrive.stateStdDevs = Constants.LimelightConstants.driveMeasurementStdDevs;
+        //swerveDrive.visionMeasurementStdDevs = Constants.LimelightConstants.visionMeasurementStdDevs;
 
 
         AutoBuilder.configureHolonomic(
